@@ -138,7 +138,7 @@
     <footer>
       <section style="margin-top:18px">
         <div id="preview" style="margin-top:10px;padding:12px;border-radius:12px;background:var(--glass);box-shadow:var(--card-shadow)">
-          © 2025 Blog Basis Data | Kaisha | <a href="https://www.ubpkarawang.ac.id" target="_blank">UBP Karawang</a></p>
+          © 2025 Blog Basis Data | Kaisha | <a href="https://www.ubpkarawang.ac.id" target="_blank">UBP Karawang</a>
         </div>
       </section>
     </footer>
