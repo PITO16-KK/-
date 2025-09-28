@@ -1,6 +1,6 @@
 <html lang="id">
 <head>
-  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Blog - Profile & Post Folders</title>
   <style>
@@ -67,6 +67,18 @@
 
     .muted{color:#666;font-size:13px}
     a.link{color:var(--ungu);text-decoration:none}
+    /* Tablet (<= 768px): 2 kolom */
+    @media (max-width: 768px) {
+    .folders {grid-template-columns: repeat(2, 1fr);}
+    }
+    @media (max-width: 480px) {
+    .folders {grid-template-columns: 1fr;}
+    header {flex-direction: column;text-align: center;}
+
+    .avatar {margin-bottom: 12px;}
+
+    .badges {justify-content: center;flex-wrap: wrap;}
+    }
   </style>
 </head>
 <body>
